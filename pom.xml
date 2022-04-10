@@ -21,7 +21,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>corp1</id>
 			<name>Corporate Repository</name>
-			<url>scpexe://maven@myserver.com/</url>
+			<url>http://</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
@@ -43,11 +43,7 @@
 			<version>5.0.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
 	</dependencies>
-
-
 	<build>
 		<plugins>
 			<plugin>
@@ -56,5 +52,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
