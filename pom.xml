@@ -18,11 +18,9 @@
 	</properties>
 	<distributionManagement>
 		<repository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>corp1</id>
-			<name>Corporate Repository</name>
-			<url>http://</url>
-			<layout>default</layout>
+			<id>nexus-releases</id>
+			<name>releases</name>
+			<url>http://myNexus/more/stuff</url>
 		</repository>
 	</distributionManagement>
 	<dependencies>
